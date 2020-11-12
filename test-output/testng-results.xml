@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="16" ignored="2" total="22" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1117550" started-at="2020-11-11T22:22:14 IST" finished-at="2020-11-11T22:40:51 IST">
+    <groups>
+    </groups>
+    <test name="exicuteTestCases" duration-ms="1117550" started-at="2020-11-11T22:22:14 IST" finished-at="2020-11-11T22:40:51 IST">
+      <class name="com.Hackatone.TestClasses.GiftCard">
+        <test-method status="PASS" signature="testForGiftCards(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="testForGiftCards" duration-ms="46597" started-at="2020-11-11T22:23:50 IST" data-provider="getData" finished-at="2020-11-11T22:24:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Piyank Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[piyank@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vikash Kumar Barnwal]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[vikash@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9693939906]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Hii Piyank, How are You ?]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForGiftCards -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="afterTest" is-config="true" duration-ms="2586" started-at="2020-11-11T22:24:37 IST" finished-at="2020-11-11T22:24:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="testForGiftCards(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="testForGiftCards" duration-ms="41450" started-at="2020-11-11T22:24:39 IST" data-provider="getData" finished-at="2020-11-11T22:25:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Akansha Kumari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[akansha@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vikash Kumar Barnwal]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[vikash@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Hii Akansha, How are You ?]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wrong information Fed-Up :: Verify The Details in attached ScreenShot]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wrong information Fed-Up :: Verify The Details in attached ScreenShot
+at org.testng.Assert.fail(Assert.java:99)
+at com.Hackatone.Base.BaseUI.reportFail(BaseUI.java:343)
+at com.Hackatone.Base.BaseUI.validateResult(BaseUI.java:248)
+at com.Hackatone.TestClasses.GiftCard.testForGiftCards(GiftCard.java:62)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForGiftCards -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="afterTest" is-config="true" duration-ms="2850" started-at="2020-11-11T22:25:21 IST" finished-at="2020-11-11T22:25:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="testForGiftCards(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="testForGiftCards" duration-ms="49642" started-at="2020-11-11T22:25:23 IST" data-provider="getData" finished-at="2020-11-11T22:26:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Subhash Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[subhashgmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[vikash@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9693939906]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Hii Shubhash, How are You ?]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wrong information Fed-Up :: Verify The Details in attached ScreenShot]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wrong information Fed-Up :: Verify The Details in attached ScreenShot
+at org.testng.Assert.fail(Assert.java:99)
+at com.Hackatone.Base.BaseUI.reportFail(BaseUI.java:343)
+at com.Hackatone.Base.BaseUI.validateResult(BaseUI.java:248)
+at com.Hackatone.TestClasses.GiftCard.testForGiftCards(GiftCard.java:62)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForGiftCards -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="afterTest" is-config="true" duration-ms="2090" started-at="2020-11-11T22:26:13 IST" finished-at="2020-11-11T22:26:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testForGiftCards(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="testForGiftCards" duration-ms="46538" started-at="2020-11-11T22:26:15 IST" data-provider="getData" finished-at="2020-11-11T22:27:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aditya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aditya@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Akansha Kumari]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[akansha@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[182855]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Happy BirthDay Aditya !!!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForGiftCards -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="afterTest" is-config="true" duration-ms="2094" started-at="2020-11-11T22:27:02 IST" finished-at="2020-11-11T22:27:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="testForGiftCards(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="testForGiftCards" duration-ms="41691" started-at="2020-11-11T22:27:04 IST" data-provider="getData" finished-at="2020-11-11T22:27:46 IST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Element <a class="featuredLinksBar__link" href="../../gift-cards?src=header"> is not clickable at point (1223,20) because another element <div class="reveal-modal-bg"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7COG7LUP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 14504, moz:profile: C:\Users\Subash Yadav\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 2806e65c-30ba-4acc-ade8-43a...}
+Session ID: 2806e65c-30ba-4acc-ade8-43a7079c69ee]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Element <a class="featuredLinksBar__link" href="../../gift-cards?src=header"> is not clickable at point (1223,20) because another element <div class="reveal-modal-bg"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7COG7LUP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 14504, moz:profile: C:\Users\Subash Yadav\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 2806e65c-30ba-4acc-ade8-43a...}
+Session ID: 2806e65c-30ba-4acc-ade8-43a7079c69ee
+at org.testng.Assert.fail(Assert.java:99)
+at com.Hackatone.Base.BaseUI.reportFail(BaseUI.java:343)
+at com.Hackatone.Base.BaseUI.elementClick(BaseUI.java:164)
+at com.Hackatone.TestClasses.GiftCard.testForGiftCards(GiftCard.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForGiftCards -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="afterTest" is-config="true" duration-ms="2254" started-at="2020-11-11T22:27:46 IST" finished-at="2020-11-11T22:27:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="testForGiftCards(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="testForGiftCards" duration-ms="143646" started-at="2020-11-11T22:27:48 IST" data-provider="getData" finished-at="2020-11-11T22:30:11 IST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Keys to send should be a not null CharSequence
+at org.testng.Assert.fail(Assert.java:99)
+at com.Hackatone.Base.BaseUI.reportFail(BaseUI.java:343)
+at com.Hackatone.Base.BaseUI.enterText(BaseUI.java:132)
+at com.Hackatone.TestClasses.GiftCard.testForGiftCards(GiftCard.java:29)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForGiftCards -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="afterTest" is-config="true" duration-ms="2321" started-at="2020-11-11T22:30:11 IST" finished-at="2020-11-11T22:30:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="testForGiftCards(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="testForGiftCards" duration-ms="46192" started-at="2020-11-11T22:30:14 IST" data-provider="getData" finished-at="2020-11-11T22:31:00 IST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Element <a class="featuredLinksBar__link" href="../../gift-cards?src=header"> is not clickable at point (1223,20) because another element <div class="reveal-modal-bg"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7COG7LUP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 22324, moz:profile: C:\Users\Subash Yadav\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 0f1480dc-d3a0-4d9c-863e-2e6...}
+Session ID: 0f1480dc-d3a0-4d9c-863e-2e6b25871609]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Element <a class="featuredLinksBar__link" href="../../gift-cards?src=header"> is not clickable at point (1223,20) because another element <div class="reveal-modal-bg"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7COG7LUP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 22324, moz:profile: C:\Users\Subash Yadav\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 0f1480dc-d3a0-4d9c-863e-2e6...}
+Session ID: 0f1480dc-d3a0-4d9c-863e-2e6b25871609
+at org.testng.Assert.fail(Assert.java:99)
+at com.Hackatone.Base.BaseUI.reportFail(BaseUI.java:343)
+at com.Hackatone.Base.BaseUI.elementClick(BaseUI.java:164)
+at com.Hackatone.TestClasses.GiftCard.testForGiftCards(GiftCard.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForGiftCards -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="afterTest" is-config="true" duration-ms="3108" started-at="2020-11-11T22:31:00 IST" finished-at="2020-11-11T22:31:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="testForGiftCards(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="testForGiftCards" duration-ms="51752" started-at="2020-11-11T22:31:03 IST" data-provider="getData" finished-at="2020-11-11T22:31:55 IST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Element <a class="featuredLinksBar__link" href="../../gift-cards?src=header"> is not clickable at point (1223,20) because another element <div class="reveal-modal-bg"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7COG7LUP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 18372, moz:profile: C:\Users\Subash Yadav\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 9c2b549a-22f8-4d06-a490-c7b...}
+Session ID: 9c2b549a-22f8-4d06-a490-c7b49ad8d5f2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Element <a class="featuredLinksBar__link" href="../../gift-cards?src=header"> is not clickable at point (1223,20) because another element <div class="reveal-modal-bg"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7COG7LUP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 18372, moz:profile: C:\Users\Subash Yadav\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 9c2b549a-22f8-4d06-a490-c7b...}
+Session ID: 9c2b549a-22f8-4d06-a490-c7b49ad8d5f2
+at org.testng.Assert.fail(Assert.java:99)
+at com.Hackatone.Base.BaseUI.reportFail(BaseUI.java:343)
+at com.Hackatone.Base.BaseUI.elementClick(BaseUI.java:164)
+at com.Hackatone.TestClasses.GiftCard.testForGiftCards(GiftCard.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForGiftCards -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="afterTest" is-config="true" duration-ms="2989" started-at="2020-11-11T22:31:55 IST" finished-at="2020-11-11T22:31:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="testForGiftCards(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="testForGiftCards" duration-ms="129123" started-at="2020-11-11T22:31:58 IST" data-provider="getData" finished-at="2020-11-11T22:34:07 IST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Keys to send should be a not null CharSequence
+at org.testng.Assert.fail(Assert.java:99)
+at com.Hackatone.Base.BaseUI.reportFail(BaseUI.java:343)
+at com.Hackatone.Base.BaseUI.enterText(BaseUI.java:132)
+at com.Hackatone.TestClasses.GiftCard.testForGiftCards(GiftCard.java:29)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForGiftCards -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="afterTest" is-config="true" duration-ms="1967" started-at="2020-11-11T22:34:07 IST" finished-at="2020-11-11T22:34:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="testForGiftCards(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="testForGiftCards" duration-ms="27334" started-at="2020-11-11T22:34:09 IST" data-provider="getData" finished-at="2020-11-11T22:34:36 IST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Element <a class="featuredLinksBar__link" href="../../gift-cards?src=header"> is not clickable at point (1223,20) because another element <div class="reveal-modal-bg"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7COG7LUP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 24776, moz:profile: C:\Users\Subash Yadav\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ffe31b21-936c-4ee5-acfa-e1f...}
+Session ID: ffe31b21-936c-4ee5-acfa-e1f1c7e29190]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Element <a class="featuredLinksBar__link" href="../../gift-cards?src=header"> is not clickable at point (1223,20) because another element <div class="reveal-modal-bg"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7COG7LUP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 24776, moz:profile: C:\Users\Subash Yadav\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ffe31b21-936c-4ee5-acfa-e1f...}
+Session ID: ffe31b21-936c-4ee5-acfa-e1f1c7e29190
+at org.testng.Assert.fail(Assert.java:99)
+at com.Hackatone.Base.BaseUI.reportFail(BaseUI.java:343)
+at com.Hackatone.Base.BaseUI.elementClick(BaseUI.java:164)
+at com.Hackatone.TestClasses.GiftCard.testForGiftCards(GiftCard.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForGiftCards -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="afterTest" is-config="true" duration-ms="2112" started-at="2020-11-11T22:34:36 IST" finished-at="2020-11-11T22:34:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="testForGiftCards(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="testForGiftCards" duration-ms="117912" started-at="2020-11-11T22:34:38 IST" data-provider="getData" finished-at="2020-11-11T22:36:36 IST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Keys to send should be a not null CharSequence
+at org.testng.Assert.fail(Assert.java:99)
+at com.Hackatone.Base.BaseUI.reportFail(BaseUI.java:343)
+at com.Hackatone.Base.BaseUI.enterText(BaseUI.java:132)
+at com.Hackatone.TestClasses.GiftCard.testForGiftCards(GiftCard.java:29)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForGiftCards -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="afterTest" is-config="true" duration-ms="2413" started-at="2020-11-11T22:36:36 IST" finished-at="2020-11-11T22:36:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="testForGiftCards(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="testForGiftCards" duration-ms="67264" started-at="2020-11-11T22:36:39 IST" data-provider="getData" finished-at="2020-11-11T22:37:46 IST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Element <a class="featuredLinksBar__link" href="../../gift-cards?src=header"> is not clickable at point (1223,20) because another element <div class="reveal-modal-bg"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7COG7LUP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 24108, moz:profile: C:\Users\Subash Yadav\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 5b040708-bd96-44ca-b4b9-b68...}
+Session ID: 5b040708-bd96-44ca-b4b9-b68f355fa5f0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Element <a class="featuredLinksBar__link" href="../../gift-cards?src=header"> is not clickable at point (1223,20) because another element <div class="reveal-modal-bg"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7COG7LUP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 24108, moz:profile: C:\Users\Subash Yadav\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 5b040708-bd96-44ca-b4b9-b68...}
+Session ID: 5b040708-bd96-44ca-b4b9-b68f355fa5f0
+at org.testng.Assert.fail(Assert.java:99)
+at com.Hackatone.Base.BaseUI.reportFail(BaseUI.java:343)
+at com.Hackatone.Base.BaseUI.elementClick(BaseUI.java:164)
+at com.Hackatone.TestClasses.GiftCard.testForGiftCards(GiftCard.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForGiftCards -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="afterTest" is-config="true" duration-ms="1990" started-at="2020-11-11T22:37:46 IST" finished-at="2020-11-11T22:37:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="testForGiftCards(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="testForGiftCards" duration-ms="30721" started-at="2020-11-11T22:37:48 IST" data-provider="getData" finished-at="2020-11-11T22:38:19 IST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Element <a class="featuredLinksBar__link" href="../../gift-cards?src=header"> is not clickable at point (1223,20) because another element <div class="reveal-modal-bg"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7COG7LUP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 21860, moz:profile: C:\Users\Subash Yadav\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: f3d8ab76-50f6-4c46-8153-213...}
+Session ID: f3d8ab76-50f6-4c46-8153-213cdbde6d8d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Element <a class="featuredLinksBar__link" href="../../gift-cards?src=header"> is not clickable at point (1223,20) because another element <div class="reveal-modal-bg"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7COG7LUP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 21860, moz:profile: C:\Users\Subash Yadav\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: f3d8ab76-50f6-4c46-8153-213...}
+Session ID: f3d8ab76-50f6-4c46-8153-213cdbde6d8d
+at org.testng.Assert.fail(Assert.java:99)
+at com.Hackatone.Base.BaseUI.reportFail(BaseUI.java:343)
+at com.Hackatone.Base.BaseUI.elementClick(BaseUI.java:164)
+at com.Hackatone.TestClasses.GiftCard.testForGiftCards(GiftCard.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForGiftCards -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="afterTest" is-config="true" duration-ms="2705" started-at="2020-11-11T22:38:19 IST" finished-at="2020-11-11T22:38:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="testForGiftCards(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="testForGiftCards" duration-ms="41374" started-at="2020-11-11T22:38:21 IST" data-provider="getData" finished-at="2020-11-11T22:39:03 IST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Element <a class="featuredLinksBar__link" href="../../gift-cards?src=header"> is not clickable at point (1223,20) because another element <div class="reveal-modal-bg"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7COG7LUP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 22480, moz:profile: C:\Users\Subash Yadav\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 9dbc8a0d-8a20-4566-b7ac-ba3...}
+Session ID: 9dbc8a0d-8a20-4566-b7ac-ba3cd5cb5a96]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Element <a class="featuredLinksBar__link" href="../../gift-cards?src=header"> is not clickable at point (1223,20) because another element <div class="reveal-modal-bg"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7COG7LUP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 22480, moz:profile: C:\Users\Subash Yadav\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 9dbc8a0d-8a20-4566-b7ac-ba3...}
+Session ID: 9dbc8a0d-8a20-4566-b7ac-ba3cd5cb5a96
+at org.testng.Assert.fail(Assert.java:99)
+at com.Hackatone.Base.BaseUI.reportFail(BaseUI.java:343)
+at com.Hackatone.Base.BaseUI.elementClick(BaseUI.java:164)
+at com.Hackatone.TestClasses.GiftCard.testForGiftCards(GiftCard.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForGiftCards -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="afterTest" is-config="true" duration-ms="2108" started-at="2020-11-11T22:39:03 IST" finished-at="2020-11-11T22:39:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="testForGiftCards(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="testForGiftCards" duration-ms="48247" started-at="2020-11-11T22:39:05 IST" data-provider="getData" finished-at="2020-11-11T22:39:53 IST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Keys to send should be a not null CharSequence
+at org.testng.Assert.fail(Assert.java:99)
+at com.Hackatone.Base.BaseUI.reportFail(BaseUI.java:343)
+at com.Hackatone.Base.BaseUI.enterText(BaseUI.java:132)
+at com.Hackatone.TestClasses.GiftCard.testForGiftCards(GiftCard.java:29)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForGiftCards -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="afterTest" is-config="true" duration-ms="2185" started-at="2020-11-11T22:39:53 IST" finished-at="2020-11-11T22:39:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="testForGiftCards(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="testForGiftCards" duration-ms="53165" started-at="2020-11-11T22:39:55 IST" data-provider="getData" finished-at="2020-11-11T22:40:49 IST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Element <a class="featuredLinksBar__link" href="../../gift-cards?src=header"> is not clickable at point (1223,20) because another element <div class="reveal-modal-bg"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7COG7LUP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 1700, moz:profile: C:\Users\Subash Yadav\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 5554b033-a693-4c3b-bf63-963...}
+Session ID: 5554b033-a693-4c3b-bf63-9634d53e2c74]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Element <a class="featuredLinksBar__link" href="../../gift-cards?src=header"> is not clickable at point (1223,20) because another element <div class="reveal-modal-bg"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7COG7LUP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 1700, moz:profile: C:\Users\Subash Yadav\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 5554b033-a693-4c3b-bf63-963...}
+Session ID: 5554b033-a693-4c3b-bf63-9634d53e2c74
+at org.testng.Assert.fail(Assert.java:99)
+at com.Hackatone.Base.BaseUI.reportFail(BaseUI.java:343)
+at com.Hackatone.Base.BaseUI.elementClick(BaseUI.java:164)
+at com.Hackatone.TestClasses.GiftCard.testForGiftCards(GiftCard.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForGiftCards -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@12028586]" name="afterTest" is-config="true" duration-ms="1830" started-at="2020-11-11T22:40:49 IST" finished-at="2020-11-11T22:40:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.Hackatone.TestClasses.GiftCard -->
+      <class name="com.Hackatone.TestClasses.GetHomeItems">
+        <test-method status="PASS" signature="getHomeListItems_one()[pri:0, instance:com.Hackatone.TestClasses.GetHomeItems@49c43f4e]" name="getHomeListItems_one" duration-ms="24031" started-at="2020-11-11T22:22:39 IST" finished-at="2020-11-11T22:23:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHomeListItems_one -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GetHomeItems@49c43f4e]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-11-11T22:23:03 IST" finished-at="2020-11-11T22:23:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="getHomeListItems_two()[pri:0, instance:com.Hackatone.TestClasses.GetHomeItems@49c43f4e]" name="getHomeListItems_two" duration-ms="17040" started-at="2020-11-11T22:23:03 IST" finished-at="2020-11-11T22:23:20 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failing the Testcase, Invalid Locator collection_menu_xpath]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failing the Testcase, Invalid Locator collection_menu_xpath
+at org.testng.Assert.fail(Assert.java:99)
+at com.Hackatone.Base.BaseUI.reportFail(BaseUI.java:343)
+at com.Hackatone.Base.BaseUI.getElement(BaseUI.java:285)
+at com.Hackatone.Base.BaseUI.elementClick(BaseUI.java:161)
+at com.Hackatone.Base.BaseUI.mouseclickAndSelectElements(BaseUI.java:224)
+at com.Hackatone.TestClasses.GetHomeItems.getHomeListItems_two(GetHomeItems.java:40)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHomeListItems_two -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GetHomeItems@49c43f4e]" name="afterTest" is-config="true" duration-ms="2308" started-at="2020-11-11T22:23:20 IST" finished-at="2020-11-11T22:23:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.Hackatone.TestClasses.GetHomeItems@49c43f4e]" name="endReport" is-config="true" duration-ms="155" started-at="2020-11-11T22:40:51 IST" finished-at="2020-11-11T22:40:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.Hackatone.TestClasses.GetHomeItems -->
+      <class name="com.Hackatone.TestClasses.GetBookshelves">
+        <test-method status="FAIL" signature="testOneForBookshelves()[pri:0, instance:com.Hackatone.TestClasses.GetBookshelves@799d4f69]" name="testOneForBookshelves" duration-ms="22869" started-at="2020-11-11T22:22:14 IST" finished-at="2020-11-11T22:22:37 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Element <input id="filters_storage_type_Open" name="filters[storage_type][]" type="checkbox"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7COG7LUP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 18396, moz:profile: C:\Users\Subash Yadav\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 918d1bff-20f7-49aa-97da-7c4...}
+Session ID: 918d1bff-20f7-49aa-97da-7c459c09ac7e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Element <input id="filters_storage_type_Open" name="filters[storage_type][]" type="checkbox"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7COG7LUP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 18396, moz:profile: C:\Users\Subash Yadav\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 918d1bff-20f7-49aa-97da-7c4...}
+Session ID: 918d1bff-20f7-49aa-97da-7c459c09ac7e
+at org.testng.Assert.fail(Assert.java:99)
+at com.Hackatone.Base.BaseUI.reportFail(BaseUI.java:343)
+at com.Hackatone.Base.BaseUI.clickAndSelectWebElement(BaseUI.java:154)
+at com.Hackatone.TestClasses.GetBookshelves.testOneForBookshelves(GetBookshelves.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneForBookshelves -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GetBookshelves@799d4f69]" name="afterTest" is-config="true" duration-ms="2310" started-at="2020-11-11T22:22:37 IST" finished-at="2020-11-11T22:22:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.Hackatone.TestClasses.GetBookshelves@799d4f69]" name="endReport" is-config="true" duration-ms="723" started-at="2020-11-11T22:40:50 IST" finished-at="2020-11-11T22:40:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.Hackatone.TestClasses.GetBookshelves -->
+      <class name="com.Hackatone.TestClasses.GetStudyChair">
+        <test-method status="PASS" signature="testForStudyChairs()[pri:0, instance:com.Hackatone.TestClasses.GetStudyChair@290dbf45]" name="testForStudyChairs" duration-ms="27568" started-at="2020-11-11T22:23:22 IST" finished-at="2020-11-11T22:23:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForStudyChairs -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GetStudyChair@290dbf45]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-11-11T22:23:50 IST" finished-at="2020-11-11T22:23:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.Hackatone.TestClasses.GetStudyChair -->
+    </test> <!-- exicuteTestCases -->
+  </suite> <!-- Suite -->
+</testng-results>
